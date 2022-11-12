@@ -53,11 +53,11 @@ cliente.main()
 
 ### Desenvolvimento do padrão em um código sem o padrão
 
-Pasta:`[./padrao-aplicado/](https://github.com/vitormlps/eng2-template-method/tree/main/padrao-aplicado)`
+`Pasta:` [./padrao-aplicado/](https://github.com/vitormlps/eng2-template-method/tree/main/padrao-aplicado)
 
-`[./padrao-aplicado/codigo-base.py](https://github.com/vitormlps/eng2-template-method/tree/main/padrao-aplicado/codigo-base.py)` → Representação de itinerários de viagem de uma agência de turismo, sendo cada viagem uma classe. A duplicação de código pode ser vista na lógica de consumo dessas classes ao implementar o itinerário.
+[./padrao-aplicado/codigo-base.py](https://github.com/vitormlps/eng2-template-method/tree/main/padrao-aplicado/codigo-base.py) → Representação de itinerários de viagem de uma agência de turismo, sendo cada viagem uma classe. A duplicação de código pode ser vista na lógica de consumo dessas classes ao implementar o itinerário.
 
-`[./padrao-aplicado/padrao-aplicado.py](https://github.com/vitormlps/eng2-template-method/tree/main/padrao-aplicado/padrao-aplicado.py)` → Com o método template aplicado, a lógica de consumo fica mais simples de desenvolver e fácil para outros desenvolvedores entenderem. Ainda é possível desenvolver lógica dinâmicamente, deixando o código mais fácil para realizar manutenção.
+[./padrao-aplicado/padrao-aplicado.py](https://github.com/vitormlps/eng2-template-method/tree/main/padrao-aplicado/padrao-aplicado.py) → Com o método template aplicado, a lógica de consumo fica mais simples de desenvolver e fácil para outros desenvolvedores entenderem. Ainda é possível desenvolver lógica dinâmicamente, deixando o código mais fácil para realizar manutenção.
 
 ### Identificação do padrão em APIs de linguagens de programação
 Todos os métodos não abstratos do java.io.InputStream, java.io.OutputStream, java.io.Reader, java.io.Writer, java.util.AbstractList, java.util.AbstractSet e java.util.AbstractMap utilizam o padrão.
@@ -76,9 +76,9 @@ Outras funcionalidades de APIs e frameworks que utilizam o padrão:
 
 ### Identificação de refatoração de projetos antigos do grupo
 
-Pasta: `[./projetos-antigos/](https://github.com/vitormlps/eng2-template-method/tree/main/projetos-antigos)`
+`Pasta:` [./projetos-antigos/](https://github.com/vitormlps/eng2-template-method/tree/main/projetos-antigos)
 
-`[./orientacao-a-objetos-informativo-covid/](https://github.com/vitormlps/eng2-template-method/tree/main/projetos-antigos/orientacao-a-objetos-informativo-covid)` → O padrão pode ser aplicado nas funções de verificação, pois existem de string, se digitou ‘não’, se está duplicado, se é número e de relação. O aplicar permitirá que o código duplicado seja reduzido através do agrupamento das verificações em uma única classe.
+[./orientacao-a-objetos-informativo-covid/](https://github.com/vitormlps/eng2-template-method/tree/main/projetos-antigos/orientacao-a-objetos-informativo-covid) → O padrão pode ser aplicado nas funções de verificação, pois existem de string, se digitou ‘não’, se está duplicado, se é número e de relação. O aplicar permitirá que o código duplicado seja reduzido através do agrupamento das verificações em uma única classe.
 
 ### Vantagens e desvantagens
 #### Pontos fortes
