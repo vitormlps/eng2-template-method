@@ -80,6 +80,9 @@ Outras funcionalidades de APIs e frameworks que utilizam o padrão:
 
 [./orientacao-a-objetos-informativo-covid/](https://github.com/vitormlps/eng2-template-method/tree/main/projetos-antigos/orientacao-a-objetos-informativo-covid) → O padrão pode ser aplicado nas funções de verificação, pois existem de string, se digitou ‘não’, se está duplicado, se é número e de relação. O aplicar permitirá que o código duplicado seja reduzido através do agrupamento das verificações em uma única classe.
 
+[./trabalho_alg_est_dados/](https://github.com/vitormlps/eng2-template-method/tree/main/projetos-antigos/trabalho_alg_est_dados) → Aplicando o template method podemos ter uma melhor performance, auxiliando na definição das subclasses com os métodos abstratos da interface. As subclasses devem se responsabilizar pela implementação dos métodos. Possivelmente de várias formas, de acordo com a sua necessidade e oferecer um comportamento concreto.
+
+
 ### Vantagens e desvantagens
 #### Pontos fortes
 - Fit natural para construir frameworks.
@@ -98,5 +101,4 @@ Outras funcionalidades de APIs e frameworks que utilizam o padrão:
 - Implementações do padrão tendem a ser mais difíceis de se manter quanto mais etapas eles tiverem.
 
 ### Conclusão
-Fruto dos dados expostos é possível evidenciarmos certos benefícios do uso desse modelo, principalmente quando relacionado a otimização da codificação, onde a mesma é sujeita ao benefício do controle de redundâncias em métodos que o modelo implica.
-Contudo, é clara a diversidade de funcionalidades de APIs e frameworks que utilizam o padrão, trazendo à tona a popularidade e eficácia da aplicação do mesmo, o que torna os códigos necessariamente mais enxutos.
+A partir dos dados coletados, é possível identificar certos benefícios do uso do padrão Template Method, principalmente quando relacionado a otimização da codificação, na qual é sujeita ao benefício do controle de redundâncias em métodos que o padrão implica. Por fim, é clara a diversidade de funcionalidades de APIs e frameworks que utilizam o padrão, trazendo à tona a popularidade e eficácia da sua aplicação.
