@@ -6,6 +6,9 @@ Trabalho acadêmico sobre o padrão de design de software Template Method.
 <a href="github.com/SAULvaRGAS88"><img src="https://github.com/SAULvaRGAS88.png" width="45" height="45"></a> &nbsp;
 <a href="github.com/vitormlps"><img src="https://github.com/vitormlps.png" width="45" height="45"></a> &nbsp;
 
+### Vídeo da Apresentação
+[Youtube](https://youtu.be/e4fthsZVp6I)
+
 ### Descrição
 Apresentando o template method ou Método Modelo, é sugerida a definição de um esqueleto para algoritmos em suas determinadas operações, permitindo que o algoritmo definido seja sujeito à mudanças através das subclasses, onde preza-se pela conservação da estrutura padrão do algoritmo, o esqueleto.
 Frameworks fazem uso extensivo do padrão Template Method. Qualquer framework executa os componentes imutáveis de um domínio assim como cria placeholders para qualquer escolha relevante de modificação pelo usuário.
