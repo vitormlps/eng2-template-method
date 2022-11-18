@@ -82,6 +82,7 @@ Outras funcionalidades de APIs e frameworks que utilizam o padrão:
 
 [./trabalho_alg_est_dados/](https://github.com/vitormlps/eng2-template-method/tree/main/projetos-antigos/trabalho_alg_est_dados) → Aplicando o template method podemos ter uma melhor performance, auxiliando na definição das subclasses com os métodos abstratos da interface. As subclasses devem se responsabilizar pela implementação dos métodos. Possivelmente de várias formas, de acordo com a sua necessidade e oferecer um comportamento concreto.
 
+[./controle-ferramentas/](https://github.com/vitormlps/eng2-template-method/tree/main/projetos-antigos/controle-ferramentas) → Visando a refatoração do código e implementação do Template Method no projeto com o objetivo de controle de ferramentas, há possibilidade de agrupar as chamadas das funções na sua respectiva sequência: cadastrar(); login(); getInformacoes(). Dessa forma, a interface tratará de estabelecer a necessidade de implementação dos métodos abstratos definidos.
 
 ### Vantagens e desvantagens
 #### Pontos fortes
